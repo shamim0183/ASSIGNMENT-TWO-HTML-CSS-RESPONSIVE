@@ -1,0 +1,64 @@
+@media (max-width: 576px) {
+  .container {
+    padding: 0 20px;
+  }
+  /* Header section */
+  nav.nav-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  ul {
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* Architech group section */
+  .architech-group-contents > h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  /* Feature section */
+  .feature-wrapper {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-wrapper .feature-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Some Fact Section */
+  .some-fact-wrapper .some-fact-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sponsor-wrapper .sponsor-images {
+    flex-direction: column;
+    gap: 50px;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .details-feature-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .details-feature-wrapper .details-feature-img .deatails-feature-text {
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* Details feature section */
+  .details-feature-wrapper .details-feature-img {
+    background-size: contain !important;
+    background-position: center;
+    width: 100%;
+    height: 570px;
+  }
+  /* Testimonials section */
+  .testimonials {
+    flex-direction: column;
+  }
+}
